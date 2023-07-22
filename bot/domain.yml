@@ -8,26 +8,357 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - university
+  - hitalent
+  - open_source
+  - frontend
+  - backend
+  - python
+  - django
+  - reactjs
+  - agile
+  - mentoring
+  - programming
+  - aws_ec2
+  - nodejs
+  - rasa
+  - nextjs
+  - docker
+  - ai
+  - svu
+  - bachelors
+  - education
+  - javascript
 
 responses:
+  utter_default:
+    - text: "I'm sorry, I didn't quite understand. Can you please rephrase or ask something else?"
+    - text: "I'm sorry, I'm not sure I understand. Can you please provide more context or rephrase your question?"
+    - text: "Apologies, I didn't catch that. Could you try asking in a different way?"
+    - text: "I'm still learning, and I'm not quite certain about your request. Can you try phrasing it differently?"
+    - text: "Hmm, it seems like I couldn't recognize your intent. Please try asking something else."
+    - text: "I'm sorry, I didn't get that. Could you please provide more details or ask a different question?"
+    - text: "My apologies, but I couldn't understand your message. Can you please try again?"
+    - text: "Oops, it looks like I didn't catch that. Could you rephrase or ask a different question?"
+    - text: "I'm sorry, I couldn't find a suitable response for your input. Please try asking something else."
+    - text: "I'm still learning and may not have the answer to that. Can you ask another question?"
+    - text: "I'm sorry, but I'm having trouble understanding your request. Could you please try rephrasing?"
+
   utter_greet:
   - text: "Hey! How are you?"
+  - text: "Hello there! How can I assist you today?"
+  - text: "Greetings! What brings you here?"
+  - text: "Hi! It's a pleasure to see you. How may I help?"
+  - text: "Hey, how's it going? How can I be of service?"
+  - text: "Welcome! What can I do for you?"
+  - text: "Good day! Let me know what you need assistance with."
+  - text: "Hello! I'm here and ready to support you. What do you require?"
+  - text: "Hey, great to have you here! How can I be useful?"
+  - text: "Greetings! What's on your mind today?"
+  - text: "Hi there! I'm at your service. How can I assist you?"
+  - text: "Hey! Welcome aboard. How can I make your day better?"
+  - text: "Hello! Tell me what you need, and I'll do my best to help."
+  - text: "Hi, it's nice to meet you! What can I do for you today?"
+  - text: "Welcome! Let's get started. How may I support you?"
+  - text: "Greetings! I'm here to lend a hand. What do you want to accomplish?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: "Hey, remember that every cloud has a silver lining! Things will get better."
+  - text: "Don't forget, you're amazing and capable of overcoming any challenge that comes your way."
+  - text: "Life is full of ups and downs, but I'm here to support you through it all."
+  - text: "You're not alone; I'm here for you, and together, we'll find a way to make it through."
+  - text: "Whenever you feel down, just know that brighter days are ahead."
+  - text: "Cheer up! Your positive attitude can change the course of the whole day."
+  - text: "Take a deep breath and remember that every difficulty is an opportunity for growth."
+  - text: "No matter what happens, I believe in you and your ability to handle anything."
+  - text: "This too shall pass. The tough times won't last forever."
+  - text: "Let's focus on the good things in life and find reasons to smile. You've got this!"
+
 
   utter_did_that_help:
   - text: "Did that help you?"
+  - text: I'm glad to hear that! If you have any more questions, feel free to ask.
+  - text: Awesome! If you need further assistance, just let me know.
+  - text: Great to know it worked! Should you require any more help, don't hesitate to reach out.
+  - text: Wonderful! If there's anything else I can do for you, please don't hesitate to ask.
+  - text: I'm pleased I could be of assistance. If you encounter more issues, feel free to reach out again.
+  - text: That's fantastic! Remember, I'm here to help whenever you need support.
+  - text: Perfect! If you ever need more guidance, don't hesitate to come back.
+  - text: Wonderful! Should you require further aid, just give me a shout.
+  - text: I'm happy to have been of help. If you have any more questions, feel free to ask anytime.
+  - text: Excellent! If there's anything else you'd like to know, I'm here to assist.
 
   utter_happy:
   - text: "Great, carry on!"
+  - text: "I'm delighted to see you so happy! 😄"
+  - text: "Yay! I'm thrilled that you're feeling happy today! 🎉"
+  - text: "Great to hear that you're in a good mood! Keep spreading that positivity! 🌞"
+  - text: "Happiness is contagious! Your joy brightens up the virtual space! 😊"
+  - text: "It warms my circuits to know that you're feeling happy! 💖"
+  - text: "Happiness is the key to a joyful life! I'm here to celebrate with you! 🎈"
+  - text: "Your happiness is my priority! Let me know if there's anything I can do to make you even happier! 🤗"
+  - text: "Hooray! Happy vibes all around! 🎊"
+  - text: "Keep that smile on your face! Happiness looks great on you! 😁"
+  - text: "I'm jumping with joy alongside you! Happy moments like these make everything worthwhile! 🥳"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: Goodbye! Take care and have a wonderful day ahead!
+  - text: Farewell! It was a pleasure chatting with you.
+  - text: Bye-bye! Until we meet again, stay safe and happy.
+  - text: See you later! Remember, I'm here if you need any more help.
+  - text: So long! Feel free to return anytime for more assistance.
+  - text: Take it easy! If you have more questions, don't hesitate to ask.
+  - text: Have a great one! Goodbye and best wishes to you.
+  - text: See you soon! Looking forward to our next conversation.
+  - text: Adios! If you need further support, just reach out.
+  - text: Catch you later! Stay curious and keep learning!
+  - text: Bye for now! Remember, knowledge is power.
+  - text: It's time to say goodbye! If you ever need guidance, I'm here.
+  - text: Until next time! Wishing you success in all your endeavors.
+  - text: See you on the flip side! Take care and stay positive.
+  - text: Signing off! Don't hesitate to return if you have more questions.
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot, built by Iliyas using Rasa Open Source tech."
+  - text: "Greetings! I am an AI bot, created by Iliyas using Rasa Open Source technology."
+  - text: "Hello there! I'm a chatbot developed by Iliyas using Rasa Open Source."
+  - text: "Hi, nice to meet you! I'm an AI assistant, crafted by Iliyas using Rasa Open Source tech."
+  - text: "Hey, I'm a bot designed by Iliyas, powered by Rasa Open Source technology."
+  - text: "Hello! I'm an artificial intelligence bot, built by Iliyas using Rasa Open Source."
+  - text: "Hey there! Iliyas here, and I've built this bot using Rasa Open Source."
+  - text: "Hi! I'm a chatbot created by Iliyas, leveraging Rasa Open Source tech."
+  - text: "Greetings! I am an AI-powered bot developed by Iliyas with Rasa Open Source."
+  - text: "Hello, it's Iliyas's chatbot here, built using Rasa Open Source technology."
+  - text: "Hi! I'm a virtual assistant, designed and developed by Iliyas with Rasa Open Source."
+
+  utter_university:
+  - text: "My time at the university was truly transformative. I had the opportunity to learn from inspiring professors and immerse myself in a diverse and enriching academic environment."
+  - text: "Studying at the university was an incredible journey filled with personal growth and academic achievements. I was able to pursue my passions and make lifelong connections with fellow students."
+  - text: "The university provided me with a well-rounded education that not only honed my academic skills but also encouraged critical thinking and problem-solving abilities."
+  - text: "I cherished every moment at the university, from engaging lectures to late-night study sessions with friends. It was a time of discovery and exploration."
+  - text: "One of the most rewarding aspects of my university experience was participating in extracurricular activities and clubs that allowed me to develop leadership and teamwork skills."
+  - text: "The university's supportive and nurturing environment helped me overcome challenges and reach my full potential. I felt encouraged to explore different subjects and discover my true passions."
+  - text: "I had the chance to collaborate on research projects with professors, which deepened my understanding of my field and gave me valuable research experience."
+  - text: "The university offered numerous opportunities for internships and practical experiences, which prepared me for the real-world challenges in my chosen career path."
+  - text: "Being part of the university community gave me a sense of belonging and pride. I formed lifelong friendships and created memories that I will cherish forever."
+  - text: "The university provided me with a strong foundation for my future endeavors. It equipped me with the knowledge and skills necessary to succeed in my professional life."
+
+  utter_hitalent:
+  - text: "HiTalent is an online programming training platform that is on a mission to help students learn programming free of cost."
+  - text: "HiTalent delivers training through an Internship program of 3-6 months and an Apprenticeship program of 6-9 months, which equips the talents with the necessary programming skills to become a programmer."
+  - text: "HiTalent's end goal is that after the internship or apprenticeship, the talent will be able to get a job as a software developer and it will help them to get placed in a suitable company."
+
+  utter_open_source:
+  - text: "Open source contribution has been an incredible learning experience for me. I've had the opportunity to collaborate with developers from around the world and work on projects that have a real impact."
+  - text: "I've been actively involved in open source projects for a few years now. It's not only satisfying to give back to the community but also a great way to improve my coding skills."
+  - text: "Open source has taught me the importance of teamwork and effective communication. It's amazing how a diverse group of developers can come together and create something incredible."
+  - text: "I've mainly contributed to web development projects in the open source world. Working with modern frameworks and libraries has expanded my knowledge and kept me up-to-date with the latest trends."
+  - text: "One of the best things about open source is the sense of camaraderie among contributors. Everyone is willing to help and share their expertise, which makes the learning process so much more enjoyable."
+  - text: "Through my open source contributions, I've gained hands-on experience in handling real-world coding challenges. It's a valuable addition to my portfolio and resume."
+  - text: "I've had the privilege of working on projects that are widely used by other developers and even in production environments. It's a fulfilling feeling to know that my code is making a positive impact."
+  - text: "Open source has also exposed me to various software development best practices, like code reviews, version control, and continuous integration. These skills have been invaluable in my professional work as well."
+  - text: "Web development in the open source community is fast-paced and exciting. I love experimenting with new technologies and contributing to projects that push the boundaries of what the web can do."
+  - text: "I'm grateful for the open source community because it has given me a platform to showcase my skills and gain recognition for my work. It's a win-win situation where I get to learn and contribute simultaneously."
+
+  utter_frontend:
+  - text: "ReactJS is a popular JavaScript library for building user interfaces, while Next.js is a powerful framework built on top of React that facilitates server-side rendering and other advanced features. I've been working with both technologies, and they have become my go-to tools for creating fast and interactive web applications."
+  - text: "ReactJS provides a component-based approach, making it easy to build reusable UI elements. I've used it extensively to create intuitive and responsive user interfaces."
+  - text: "Next.js has been a game-changer for me in web development. Its server-side rendering capabilities improve SEO and performance, and the built-in routing system simplifies the development process."
+  - text: "Working with ReactJS and Next.js has allowed me to create dynamic single-page applications with smooth transitions between pages. It has been an exciting journey exploring the possibilities of these technologies."
+  - text: "I've leveraged ReactJS and Next.js to build high-performance web apps that deliver a seamless user experience, even for complex workflows."
+  - text: "Using Next.js's static site generation, I've developed websites with lightning-fast loading times, improving overall user engagement and satisfaction."
+  - text: "With ReactJS and Next.js, I've been able to create progressive web applications (PWAs) that offer offline capabilities, enhancing accessibility and user retention."
+  - text: "One of the most significant advantages of ReactJS and Next.js is the strong developer community support and the vast ecosystem of libraries and tools available."
+  - text: "As I've honed my skills in web development with ReactJS and Next.js, I've become proficient in managing state, handling data flow, and optimizing application performance."
+  - text: "My experience with ReactJS and Next.js has given me a deep understanding of modern web development practices, allowing me to build scalable and maintainable applications."
+
+  utter_backend:
+  - text: "I have extensive experience in backend web development using Django and Node.js. Both technologies have their strengths, and I enjoy working with them to build robust and scalable web applications."
+  - text: "In web development, I've specialized in backend development, and I'm proficient in Django and Node.js. These frameworks allow me to create powerful and efficient server-side logic for web applications."
+  - text: "I've been working with Django and Node.js for several years now, and I've developed various web applications and APIs using these technologies. They offer great flexibility and are well-suited for different project requirements."
+  - text: "Backend development is my passion, and I've honed my skills with Django and Node.js. From database management to handling complex business logic, I've successfully delivered numerous projects using these technologies."
+  - text: "When it comes to backend development, I rely on the versatility of Django and Node.js. My experience in using them allows me to design scalable architectures and deliver high-performance web applications."
+  - text: "I've had the opportunity to work on several exciting web projects, leveraging Django and Node.js for the backend. These frameworks provide the ideal foundation for building responsive and feature-rich applications."
+  - text: "Backend development with Django and Node.js has been an integral part of my web development journey. I've tackled challenges ranging from real-time communication to data processing, all made possible with these technologies."
+  - text: "As a backend developer, I'm well-versed in Django and Node.js. They complement each other in different scenarios, and my experience allows me to choose the right technology for each project."
+  - text: "My backend development experience revolves around Django and Node.js, and I find the combination perfect for building modern web applications that can handle heavy workloads and deliver seamless user experiences."
+  - text: "When it comes to web development, I'm deeply immersed in the backend world. With Django and Node.js, I've had the opportunity to work on diverse projects, bringing ideas to life with robust and efficient backend solutions."
+
+  utter_python:
+  - text: "I have 2 years of experience in python and I would rate myself 9/10. I learnt Django and fastapi to create backend services that help in building web applications."
+  - text: "Python is a versatile and powerful programming language, and I have extensive experience using it for web development projects."
+  - text: "When it comes to web development, Python has been my go-to language. I've built various web applications and websites using Python frameworks."
+  - text: "Python's simplicity and readability make it an excellent choice for web development. I've been using it for 2 years and have worked on a range of web projects."
+  - text: "I'm quite familiar with Python and have utilized it for web development extensively. It offers a wide range of libraries and frameworks that speed up development."
+  - text: "Having 2 years of experience in web development with Python, I can confidently say it's a reliable language for building scalable and efficient web applications."
+  - text: "Python's ecosystem for web development is robust. I've used popular frameworks like Django and FastaAPI to create interactive and user-friendly websites."
+  - text: "Python's ability to integrate with other technologies makes it perfect for web development. I've used it to create APIs and web services that communicate with different platforms."
+  - text: "As a Python developer with a focus on web development, I've contributed to various projects and implemented cutting-edge features using Python's capabilities."
+  - text: "Python's community support is outstanding, which has been immensely helpful during my web development journey. I've had the privilege of collaborating with skilled developers."
+  - text: "Python is an ideal choice for web development due to its rapid development capabilities and vast ecosystem. I've successfully delivered multiple web projects using Python."
+
+  utter_django:
+  - text: "I have experience in Django and DRF and I would rate myself 9/10. I learnt Django and fastapi to create backend services that help in building web applications."
+  - text: "Django is a powerful and popular Python web framework that I've extensively used in my web development projects. It's great for building robust and scalable web applications."
+  - text: "I have hands-on experience with Django, and it's one of my favorite frameworks for web development. It simplifies the process of building feature-rich web applications."
+  - text: "I've been working with Django for several years now, and it's been instrumental in creating efficient and secure web applications."
+  - text: "Django's built-in features like the ORM and admin interface have been incredibly helpful in speeding up the development process and maintaining code quality."
+  - text: "I have a solid background in web development with Django, which has allowed me to create interactive and user-friendly web applications for various clients."
+  - text: "Django follows the 'Don't Repeat Yourself' (DRY) principle, making it easier to maintain and update web projects, which is one of the reasons why I prefer it."
+  - text: "Having worked on numerous Django projects, I can confidently say that it's an excellent choice for handling complex web applications and managing databases."
+  - text: "With Django, I've been able to build RESTful APIs efficiently, enabling seamless integration with frontend frameworks and mobile applications."
+  - text: "I enjoy using Django's built-in authentication system, as it provides a secure and customizable way to manage user accounts and permissions."
+  - text: "As a web developer, Django has allowed me to focus more on the application's logic and less on repetitive tasks, resulting in faster development cycles and more robust applications."
+
+  utter_reactjs:
+  - text: "I have experience in ReactJs and I would rate myself 9/10. I learnt ReactJS in building user interfaces"
+  - text: "ReactJS is a popular JavaScript library for building user interfaces. I've been using it for 2 now, and I find it incredibly powerful and flexible."
+  - text: "In my web development journey, ReactJS has been a key tool. It allows me to create interactive and dynamic user interfaces efficiently."
+  - text: "ReactJS is my go-to framework for front-end development. I have hands-on experience building various web applications using React."
+  - text: "When it comes to web development, I specialize in ReactJS. It has helped me deliver smooth and responsive user experiences."
+  - text: "I've worked extensively with ReactJS and its ecosystem, which has broadened my understanding of modern web development practices."
+  - text: "ReactJS has been an essential part of my web development projects. It offers a component-based architecture that simplifies development and maintenance."
+  - text: "My experience with ReactJS has been rewarding. It has allowed me to create reusable UI components and optimize performance."
+  - text: "As a web developer, I've leveraged ReactJS to build single-page applications and enhance user interactions."
+  - text: "ReactJS is a game-changer in web development. Its virtual DOM and unidirectional data flow have significantly improved the way I create web apps."
+  - text: "I'm passionate about ReactJS and the possibilities it brings to web development. It has played a significant role in my career as a web developer."
+
+  utter_agile:
+  - text: "I follow Agile and Kanban methodologies while mentoring freshers in web development. These approaches help me break down the learning process into smaller, manageable tasks and ensure a smooth learning experience for them."
+  - text: "When mentoring freshers, I adopt Agile principles to iteratively introduce web development concepts. Kanban boards help visualize their progress and keep track of their learning journey."
+  - text: "As a mentor, I implement Agile practices to encourage collaboration and feedback among freshers in web development. Kanban boards help them prioritize tasks and stay focused on their goals."
+  - text: "In web development, I leverage Agile and Kanban to manage projects efficiently. For freshers, it means a step-by-step learning process with clear objectives and continuous improvement."
+  - text: "Using Agile with freshers in web development allows me to adapt my teaching approach based on their progress and challenges. Kanban helps them visualize their tasks and understand their workflow better."
+  - text: "Agile and Kanban provide an effective framework for mentoring freshers in web development. Regular retrospectives and Kanban boards keep us on track, ensuring they learn at a comfortable pace."
+  - text: "When I work on web development projects or mentor freshers, Agile enables us to embrace change and deliver value incrementally. Kanban boards help us stay organized and prioritize tasks effectively."
+  - text: "Through Agile methodologies, I can continuously assess the growth of freshers in web development. By using Kanban, we create a transparent workflow that fosters a sense of achievement and motivation."
+  - text: "In web development, Agile and Kanban complement each other well. For freshers, Agile means regular check-ins and feedback, while Kanban boards help them manage their tasks visually."
+  - text: "Agile and Kanban serve as a foundation for my mentoring approach with freshers in web development. By fostering collaboration and visualizing their progress, we can make the learning journey engaging and rewarding."
+
+  utter_mentoring:
+  - text: "Absolutely! Mentoring freshers in web development is a rewarding experience. I'm more than happy to help aspiring developers kickstart their journey."
+  - text: "I'm always excited to mentor newcomers in the world of web development. It's a great way to give back to the community and nurture new talent."
+  - text: "I'm passionate about mentoring freshers in web development. It's important to guide them and provide the right resources to build a solid foundation."
+  - text: "I believe in empowering the next generation of web developers. Mentoring freshers is a wonderful opportunity to share knowledge and inspire creativity."
+  - text: "Helping freshers break into web development is a privilege. I enjoy seeing their growth and witnessing their success in the field."
+  - text: "Count me in! Mentoring newcomers in web development allows me to stay updated with the latest trends and approaches while making a positive impact."
+  - text: "I'm a firm believer in mentorship. Guiding freshers in web development enables them to build confidence and become independent developers."
+  - text: "Mentoring freshers in web development is not just about teaching technical skills; it's about nurturing their problem-solving abilities and encouraging teamwork."
+  - text: "I love mentoring aspiring web developers! It's a chance to share industry insights and help them navigate the complexities of web development."
+  - text: "Being a mentor to freshers in web development allows me to witness their growth from beginners to proficient developers. It's a journey worth taking."
+
+  utter_programming:
+  - text: "I've been programming and working in web development for years now. It's been an exciting journey of learning and growth!"
+  - text: "I have a strong background in programming languages like Python, JavaScript and have honed my skills through various web development projects."
+  - text: "In my web development experience, I've worked on creating responsive and user-friendly websites using modern frameworks and tools."
+  - text: "I'm proficient in HTML, CSS, JavaScript, and have hands-on experience with popular web development libraries and frameworks like ReactJs and it's framework NextJs."
+  - text: "Throughout my programming journey, I've been involved in building full-stack web applications, from the front-end UI to the back-end server logic."
+  - text: "I've had the opportunity to work on diverse web development projects, including e-commerce platforms, content management systems, and web applications for various industries."
+  - text: "My web development experience includes optimizing websites for performance and SEO, as well as implementing security measures to protect against potential vulnerabilities."
+  - text: "During my programming career, I've been part of agile development teams, collaborating with designers, developers, and stakeholders to deliver high-quality web solutions."
+  - text: "I take pride in staying up-to-date with the latest web development trends and best practices, allowing me to create modern and innovative web experiences."
+  - text: "Web development is not just a job for me; it's a passion. I'm always eager to explore new technologies and push the boundaries of what's possible on the web."
+
+  utter_aws_ec2:
+  - text: "I have experience with AWS EC2 in web development. It's been a core part of my infrastructure setup for deploying and scaling web applications."
+  - text: "AWS EC2 has been my go-to choice for hosting web applications. Its flexibility and scalability make it a great fit for handling varying traffic loads."
+  - text: "I've used AWS EC2 instances to deploy and manage web servers, allowing me to easily handle traffic spikes and ensure high availability."
+  - text: "Working with AWS EC2 has been a crucial part of my web development projects. It provides a reliable and secure environment to host applications."
+  - text: "In web development, AWS EC2 has been my preferred solution for managing virtual servers, allowing me to focus more on the application's code."
+  - text: "AWS EC2's integration with other AWS services has streamlined my web development process, enabling seamless data storage and access."
+  - text: "Having hands-on experience with AWS EC2 has allowed me to fine-tune server configurations for optimal performance and cost-efficiency."
+  - text: "With AWS EC2, I've been able to easily launch and maintain multiple instances, making it convenient for deploying various stages of my web applications."
+  - text: "I've used AWS EC2 auto-scaling to handle traffic fluctuations, ensuring my web applications stay responsive during high demand periods."
+  - text: "My experience with AWS EC2 includes setting up load balancers to distribute traffic across multiple instances, enhancing the overall performance and reliability of my web apps."
+
+  utter_nodejs:
+  - text: "Node.js is a powerful JavaScript runtime that allows server-side execution of JavaScript code. I've been using it extensively in web development to build fast and scalable applications."
+  - text: "Node.js has been my go-to choice for web development because of its event-driven architecture and non-blocking I/O. It has significantly improved the performance of the applications I've built."
+  - text: "I have several years of experience working with Node.js in web development. It's fantastic for building real-time applications, APIs, and microservices."
+  - text: "Node.js has a vibrant ecosystem of packages and modules through npm, which makes it easy to find solutions and integrate them into my web projects."
+  - text: "One of the things I love about Node.js is its seamless integration with frontend JavaScript frameworks. It allows me to have a consistent language and codebase across the entire stack."
+  - text: "I've utilized Node.js to build RESTful APIs, and its asynchronous nature has enabled me to handle a high volume of concurrent requests efficiently."
+  - text: "Using Node.js with frameworks like Express.js has helped me create clean and maintainable code for my web applications."
+  - text: "Node.js also shines when it comes to building WebSocket-based applications, enabling real-time bidirectional communication between clients and servers."
+  - text: "With my expertise in Node.js, I've successfully implemented server-side rendering (SSR) for websites, enhancing SEO and performance."
+  - text: "In addition to web development, I've leveraged Node.js in other areas, like building command-line tools and automating tasks, making my development workflow more efficient."
+
+  utter_rasa:
+  - text: "Rasa is an open-source conversational AI framework that I've been working with. It allows me to build chatbots and virtual assistants with natural language understanding capabilities."
+  - text: "I've been using Rasa to create AI-powered chatbots for various web applications. It's a great tool for enhancing user interactions."
+  - text: "Rasa has been my go-to framework for building chatbots that can understand and respond to user inputs in web development projects."
+  - text: "In web development, Rasa has been instrumental in helping me create conversational interfaces, making web applications more engaging and interactive."
+  - text: "I have hands-on experience in using Rasa to develop chatbots that can be integrated seamlessly into web applications, enhancing the overall user experience."
+  - text: "Rasa's flexibility and scalability have made it an excellent choice for me to implement advanced conversational features in web development."
+  - text: "Using Rasa in web development has allowed me to harness the power of natural language processing to build smarter and more user-friendly chatbots."
+  - text: "I've had the opportunity to work with Rasa to create chatbots for web applications, and it's been a rewarding experience to see users interacting with them."
+  - text: "Rasa's community and documentation have been very supportive in my journey of incorporating AI-driven chatbots into web development projects."
+  - text: "With Rasa, I've been able to leverage my web development skills to build intelligent chatbots that understand user intent and deliver personalized responses."
+
+  utter_nextjs:
+  - text: "Next.js is a powerful framework for building React-based web applications. I've been working with it for the past two years, and it has significantly improved the development process."
+  - text: "I have extensive experience with Next.js, a server-side rendering framework for React. It allows me to build blazing-fast web applications with ease."
+  - text: "Next.js is my go-to choice for web development projects. Its hybrid rendering capabilities, along with server-side rendering, make it a robust framework to work with."
+  - text: "I'm well-versed in Next.js, which has helped me create SEO-friendly and performant websites. It has been an essential tool in my web development toolkit."
+  - text: "Next.js has been a game-changer in my web development journey. Its automatic code splitting and server-side rendering have simplified building complex applications."
+  - text: "I've had the pleasure of using Next.js in various web projects, and I'm impressed by its flexibility and seamless integration with the React ecosystem."
+  - text: "In my experience, Next.js has proven to be an excellent choice for projects that require fast page loads and a great user experience. Its server-side rendering capabilities are a huge advantage."
+  - text: "As a web developer, I find Next.js to be highly efficient when it comes to handling routing and server-side rendering. It allows me to focus more on building features rather than worrying about boilerplate setup."
+  - text: "I've worked extensively with Next.js, and it has drastically improved my team's productivity. The hot module replacement and server-side rendering are real time-savers."
+  - text: "Next.js has been my preferred framework for building scalable web applications. Its built-in support for CSS modules and static site generation makes development a breeze."
+
+  utter_docker:
+  - text: "I've been using Docker for web development for several years now. It's been a game-changer for me, allowing seamless integration between development and production environments."
+  - text: "Docker has been a critical part of my web development workflow. It enables me to package applications, dependencies, and configurations, making deployment and scaling a breeze."
+  - text: "When it comes to web development, Docker has been my go-to tool for creating isolated and reproducible development environments, which has improved collaboration and productivity."
+  - text: "I can confidently say that Docker has significantly improved the efficiency of our web development team. It streamlines the deployment process and ensures consistency across different environments."
+  - text: "Incorporating Docker into our web development stack has been a game-changer in terms of simplifying infrastructure management. It allows us to focus more on building and delivering features."
+  - text: "Docker has made it incredibly easy to onboard new team members in our web development projects. They can quickly spin up the same development environment, reducing setup time and frustrations."
+  - text: "With Docker, I can confidently experiment with new libraries and technologies without worrying about messing up my local environment. It gives me the flexibility to test different setups effortlessly."
+  - text: "One of the most significant benefits of using Docker in web development is its ability to ensure consistency between development, staging, and production environments. It has helped minimize deployment issues."
+  - text: "By containerizing web applications with Docker, I've seen noticeable improvements in scalability and resource utilization. It's been essential in optimizing our infrastructure costs."
+  - text: "Docker's integration with popular web development tools like CI/CD pipelines has been a real game-changer for our team. We can now automate the entire deployment process efficiently."
+
+  utter_ai:
+  - text: "AI has become an essential part of web development, revolutionizing how websites are built and personalized for users."
+  - text: "Web developers are increasingly leveraging AI to create smarter, more dynamic websites that adapt to users' preferences and behavior."
+  - text: "AI-powered chatbots and virtual assistants are enhancing the user experience on websites, providing instant support and information."
+  - text: "Machine learning algorithms are optimizing web content delivery, ensuring users receive relevant and personalized content."
+  - text: "AI-based recommendation systems are improving user engagement by suggesting products, services, or content tailored to individual interests."
+  - text: "Natural Language Processing (NLP) allows websites to understand and respond to user queries in a more human-like manner."
+  - text: "AI-driven analytics and insights enable web developers to gain valuable data on user behavior, helping them make data-driven decisions."
+  - text: "AI can automate repetitive tasks in web development, freeing up developers to focus on more complex and creative aspects of their work."
+  - text: "Sentiment analysis using AI helps websites gauge user feedback and sentiment, leading to improved user satisfaction."
+  - text: "AI's continuous learning capabilities ensure that web development practices evolve and adapt to changing user needs and trends."
+
+  utter_svu:
+  - text: "Sri Venkateswara University (SVU), Tirupati was set-up in 1954. The University is ranked 60 in University category by NIRF 2023. It is accredited by NAAC with “A+” Grade. University is offering UG, PG, and Ph.D. courses under disciplines of Engineering & Technology, Arts, Science, and Commerce. Admissions are offered strictly based on entrance or qualifying examination."
+
+  utter_bachelors:
+  - text: "I have done my Bachelor's in Electronics and Communication Engineering with CGPA equal to 6.9 out of 10 ad organized some technical and cultural events in my university across my branch."
+
+  utter_education:
+  - text: "I have done my Bachelor's in Electronics and Communication Engineering with CGPA equal to 6.9 out of 10. But in my final year of graduation I had interest and liking to become a software developer then I started to learn Python and now I'm a skilled developer."
+
+  utter_javascript:
+  - text: "JavaScript is one of my core strengths in web development. I've been using it for several years to build interactive and dynamic web applications."
+  - text: "JavaScript is my go-to language for front-end development. I've worked extensively with it to create responsive user interfaces and enhance user experiences."
+  - text: "I have a solid understanding of JavaScript and have used it in various projects, ranging from small websites to large-scale web applications."
+  - text: "JavaScript has been an integral part of my journey as a web developer. I've leveraged its power to create modern and engaging websites for clients across different industries."
+  - text: "I'm quite comfortable with JavaScript frameworks like React and Vue.js, and I've used them to build interactive single-page applications and complex user interfaces."
+  - text: "JavaScript's versatility allows me to work on both the front-end and back-end of web applications. I've built full-stack projects using Node.js and Express."
+  - text: "I stay up-to-date with the latest ECMAScript features and best practices to ensure my JavaScript code is efficient, maintainable, and follows modern standards."
+  - text: "JavaScript's event-driven nature makes it perfect for building real-time applications. I've implemented features like chat systems and live updates using WebSocket technology."
+  - text: "JavaScript has played a significant role in my web development journey. I'm always eager to explore new libraries and tools to continuously improve my skills and deliver high-quality projects."
+
+
+
+
+
+
+
 
 session_config:
   session_expiration_time: 60
