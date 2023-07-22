@@ -11,3 +11,113 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default
+
+- rule: Respond to js
+  steps:
+  - intent: javascript
+  - action: utter_javascript
+
+- rule: Respond to docker
+  steps:
+  - intent: docker
+  - action: utter_docker
+
+- rule: Respond to nextjs
+  steps:
+  - intent: nextjs
+  - action: utter_nextjs
+
+- rule: Respond to rasa
+  steps:
+  - intent: rasa
+  - action: utter_rasa
+
+- rule: Respond to nodejs
+  steps:
+  - intent: nodejs
+  - action: utter_nodejs
+
+- rule: Respond to aws ec2
+  steps:
+  - intent: aws_ec2
+  - action: utter_aws_ec2
+
+- rule: Respond to reactjs
+  steps:
+  - intent: reactjs
+  - action: utter_reactjs
+
+- rule: Respond to django
+  steps:
+  - intent: django
+  - action: utter_django
+
+- rule: Respond to python
+  steps:
+  - intent: python
+  - action: utter_python
+
+- rule: Respond to university
+  steps:
+  - intent: university
+  - action: utter_university
+
+- rule: Respond to hitalent
+  steps:
+  - intent: hitalent
+  - action: utter_hitalent
+
+- rule: Respond to open_source
+  steps:
+  - intent: open_source
+  - action: utter_open_source
+
+- rule: Respond to frontend
+  steps:
+  - intent: frontend
+  - action: utter_frontend
+
+- rule: Respond to backend
+  steps:
+  - intent: backend
+  - action: utter_backend
+
+- rule: Respond to ai
+  steps:
+  - intent: ai
+  - action: utter_ai
+
+- rule: Respond to agile
+  steps:
+  - intent: agile
+  - action: utter_agile
+
+- rule: Respond to mentoring
+  steps:
+  - intent: mentoring
+  - action: utter_mentoring
+
+- rule: Respond to programming
+  steps:
+  - intent: programming
+  - action: utter_programming
+
+- rule: Respond to svu
+  steps:
+  - intent: svu
+  - action: utter_svu
+
+- rule: Respond to bachelors
+  steps:
+  - intent: bachelors
+  - action: utter_bachelors
+
+- rule: Respond to education
+  steps:
+  - intent: education
+  - action: utter_education

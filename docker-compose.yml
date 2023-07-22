@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  rasa_bot:
+    # Use the previously built image
+    build: .
+    # Mount the current directory as a volume inside the container
+    volumes:
+      - ./bot:/app
+    # Expose the Rasa server port
+    ports:
+      - "5005:5005"

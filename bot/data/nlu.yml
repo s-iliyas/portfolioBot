@@ -91,82 +91,335 @@ nlu:
     - am I talking to a human?
 
 - intent: university
-  example: |
+  examples: |
     - University
+    - what is your university?
 
 - intent: hitalent
-  example: |
+  examples: |
     - HiTalent
+    - what is HiTalent?
 
 - intent: open_source
-  example: |
+  examples: |
     - Open Source
+    - what is open source?
 
 - intent: frontend
-  example: |
+  examples: |
     - Frontend
+    - what is frontend?
 
 - intent: backend
-  example: |
+  examples: |
     - Backend
+    - what is backend?
 
 - intent: python
-  example: |
+  examples: |
+    - Have you used Python in any of your previous projects?
+    - What kind of Python projects have you worked on before?
+    - Can you tell me about your Python development background?
+    - How skilled are you in Python programming?
+    - Have you implemented any Python APIs in the past?
+    - Share your Python-related experience with me.
+    - Have you ever built anything with Python?
+    - What is your proficiency level in Python?
+    - Tell me about your Python coding expertise.
+    - Do you have any hands-on experience with Python?
+    - What can you do using Python?
+    - Have you utilized Python for any real-world applications?
+    - How comfortable are you with Python?
+    - What's your history with Python programming?
+    - Can you mention any Python-related projects you've completed?
+    - Describe your Python-related skills.
+    - Have you been working with Python for long?
+    - Tell me about any Python libraries or frameworks you've used.
+    - How knowledgeable are you in Python?
+    - Have you ever written Python scripts or automation tools?
+    - What have you done with Python?
+    - Can you showcase any Python-related accomplishments?
+    - Share your expertise in Python programming.
+    - Have you built any web applications using Python?
+    - What's your experience level with Python libraries?
+    - Tell me about your Python programming background.
+    - Can you list some Python projects you've contributed to?
+    - How much exposure do you have to Python development?
+    - What types of tasks can you handle in Python?
+    - Have you ever worked with Python for data analysis?
+    - What Python frameworks are you familiar with?
+    - How long have you been coding in Python?
     - Python
 
 - intent: django
-  example: |
+  examples: |
+    - Have you worked with Django before?
+    - What's your familiarity level with Django?
+    - What is your experience with Django?
+    - Tell me about your experience with Django.
+    - Do you have any experience in Django web development?
+    - Have you worked with Django framework
+    - Could you share your experience in Django?
+    - Can you tell me about any projects you've built using Django?
+    - What projects have you worked on using Django?
+    - How would you rate your skills in Django?
+    - What is your rating in Django?
+    - What is your level of expertise in Django?
+    - Tell me about Django.
+    - Have you used Django in any of your previous projects?
+    - What kind of Django projects have you worked on before?
+    - Can you tell me about your Django web development background?
+    - How skilled are you in Django framework?
+    - Have you implemented any Django APIs in the past?
+    - Share your Django-related experience with me.
+    - Have you ever built anything with Django?
+    - What is your proficiency level in Django?
+    - Tell me about your Django coding expertise.
+    - Do you have any hands-on experience with Django?
+    - What can you do using Django?
+    - Have you utilized Django for any real-world applications?
+    - How comfortable are you with Django?
+    - What's your history with Django web development?
+    - Can you mention any Django-related projects you've completed?
+    - Describe your Django-related skills.
+    - Have you been working with Django for long?
     - Django
 
+
 - intent: reactjs
-  example: |
+  examples: |
+    - Have you worked with ReactJS before?
+    - What's your familiarity level with ReactJS?
+    - What is your experience with ReactJS?
+    - Tell me about your experience with ReactJS.
+    - Do you have any experience in building ReactJS applications?
+    - Have you worked with ReactJS frontend development?
+    - Could you share your experience in ReactJS?
+    - Can you tell me about any projects you've built using ReactJS?
+    - What projects have you worked on with ReactJS?
+    - How skilled are you in ReactJS development?
+    - What is your rating in ReactJS?
+    - What is your level of expertise in ReactJS?
+    - Tell me about ReactJS.
+    - Have you utilized ReactJS in any of your previous projects?
+    - What kind of ReactJS projects have you worked on before?
+    - Can you explain your ReactJS development background?
+    - How comfortable are you with ReactJS programming?
+    - Have you implemented any ReactJS components or libraries in the past?
+    - Share your ReactJS-related experience with me.
+    - Have you ever built anything with ReactJS?
+    - Can you share your proficiency level in ReactJS?
+    - What ReactJS frameworks or tools are you familiar with?
+    - Do you have any hands-on experience with ReactJS frontend frameworks?
+    - Have you used ReactJS for any real-world applications?
+    - How knowledgeable are you in ReactJS best practices?
+    - What's your history with ReactJS development?
+    - Can you mention any ReactJS-related projects you've completed?
+    - Describe your ReactJS coding expertise.
+    - How much exposure do you have to ReactJS development?
+    - Have you ever worked with ReactJS for state management?
     - ReactJs
 
-- intent: python
-  example: |
-    - Python
+- intent: agile
+  examples: |
+    - Agile
+    - what is Agile?
 
-- intent: python
-  example: |
-    - Python
+- intent: mentoring
+  examples: |
+    - Mentoring
+    - what is Mentoring?
 
-- intent: python
-  example: |
-    - Python
+- intent: programming
+  examples: |
+    - Programming
+    - what is Programming?
 
-- intent: python
-  example: |
-    - Python
+- intent: aws_ec2
+  examples: |
+    - Have you worked with AWS EC2 instances before?
+    - What's your familiarity level with AWS EC2?
+    - What is your experience with AWS EC2?
+    - Tell me about your experience with AWS EC2.
+    - Do you have any experience in managing AWS EC2 instances?
+    - Have you used AWS EC2 for any of your previous projects?
+    - Can you tell me about your AWS EC2 development background?
+    - How skilled are you in working with AWS EC2?
+    - Have you deployed applications on AWS EC2?
+    - Share your AWS EC2-related experience with me.
+    - Have you ever set up and configured AWS EC2 instances?
+    - What is your proficiency level in managing AWS EC2?
+    - Tell me about your experience with AWS EC2 security.
+    - Do you have any hands-on experience with AWS EC2?
+    - What can you do using AWS EC2?
+    - Have you utilized AWS EC2 for any real-world applications?
+    - How comfortable are you with AWS EC2?
+    - What's your history with AWS EC2 management?
+    - Can you mention any AWS EC2-related projects you've completed?
+    - Describe your AWS EC2-related skills.
+    - Have you been working with AWS EC2 for long?
+    - Tell me about any AWS EC2 features you've used.
+    - Do you have experience with auto-scaling on AWS EC2?
+    - What's your experience level with AWS EC2 instance types?
+    - Have you ever used AWS EC2 for machine learning tasks?
+    - How knowledgeable are you in AWS EC2 networking and security groups?
+    - What AWS services have you integrated with EC2 instances?
+    - Can you list some AWS EC2 projects you've contributed to?
+    - How much exposure do you have to AWS EC2 instance management?
+    - What types of tasks can you handle with AWS EC2?
+    - AWS EC2
 
-- intent: python
-  example: |
-    - Python
+- intent: nodejs
+  examples: |
+    - Have you worked with Node.js before?
+    - What's your familiarity level with Node.js?
+    - What is your experience with Node.js?
+    - Tell me about your experience with Node.js.
+    - Do you have any experience in Node.js API development?
+    - Have you worked with Node.js programming language?
+    - Could you share your experience in Node.js?
+    - Can you tell me about any projects you've built using Node.js?
+    - What projects have you built using Node.js?
+    - How would you rate your skills in Node.js?
+    - What is your rating in Node.js?
+    - What is your level of expertise in Node.js?
+    - Tell me about Node.js.
+    - Have you used Node.js in any of your previous projects?
+    - What kind of Node.js projects have you worked on before?
+    - Can you tell me about your Node.js development background?
+    - How skilled are you in Node.js programming?
+    - Have you implemented any Node.js APIs in the past?
+    - Share your Node.js-related experience with me.
+    - Have you ever built anything with Node.js?
+    - What is your proficiency level in Node.js?
+    - Tell me about your Node.js coding expertise.
+    - Do you have any hands-on experience with Node.js?
+    - What can you do using Node.js?
+    - Have you utilized Node.js for any real-world applications?
+    - How comfortable are you with Node.js?
+    - What's your history with Node.js programming?
+    - Can you mention any Node.js-related projects you've completed?
+    - Describe your Node.js-related skills.
+    - Have you been working with Node.js for long?
+    - NodeJs
 
-- intent: python
-  example: |
-    - Python
+- intent: rasa
+  examples: |
+    - Have you worked with Rasa before?
+    - What's your familiarity level with Rasa?
+    - What is your experience with Rasa?
+    - Tell me about your experience using Rasa.
+    - Do you have any experience with Rasa API?
+    - Have you worked with Rasa chatbots before?
+    - Could you share your experience in Rasa?
+    - Can you tell me about any projects you've built using Rasa?
+    - What projects have you built using Rasa?
+    - How would you rate your Rasa skills?
+    - What is your rating in Rasa?
+    - What is your level of expertise in Rasa?
+    - Tell me about Rasa.
+    - Have you used Rasa in any of your previous projects?
+    - What kind of Rasa projects have you worked on before?
+    - Can you tell me about your Rasa development background?
+    - How skilled are you in Rasa chatbot development
+    - Have you implemented any Rasa APIs in the past?
+    - Share your Rasa-related experience with me.
+    - Have you ever built anything with Rasa?
+    - What is your proficiency level in Rasa?
+    - Tell me about your Rasa chatbot expertise.
+    - Do you have any hands-on experience with Rasa?
+    - What can you do using Rasa?
+    - Have you utilized Rasa for any real-world applications?
+    - How comfortable are you with Rasa?
+    - What's your history with Rasa chatbot development?
+    - Can you mention any Rasa-related projects you've completed?
+    - Describe your Rasa skills.
+    - Have you been working with Rasa for long?
+    - Rasa
 
-- intent: python
-  example: |
-    - Python
+- intent: nextjs
+  examples: |
+    - Have you worked with Next.js before?
+    - What's your familiarity level with Next.js?
+    - Tell me about your experience with Next.js
+    - Tell me about your experience with Nextjs
+    - experience in Nextjs
+    - experience in Next.js
+    - Could you tell me about any projects you've built using Next.js
+    - what projects you've built using Next.js
+    - your rating in nextjs
+    - your rating in next.js
+    - your level in nextjs
+    - NextJs
 
-- intent: python
-  example: |
-    - Python
+- intent: docker
+  examples: |
+    - Have you worked with Docker before?
+    - What's your familiarity level with Docker?
+    - What is your experience with Docker containers?
+    - Tell me about your experience with Docker.
+    - Do you have any experience in managing Dockerized applications?
+    - Have you worked with Docker images and containers?
+    - Could you share your experience in Docker containerization?
+    - Can you tell me about any projects you've built using Docker?
+    - What projects have you containerized with Docker?
+    - How would you rate your skills in Docker?
+    - What is your rating in Docker container management?
+    - What is your level of expertise in working with Docker?
+    - Tell me about Docker containerization.
+    - Docker
 
-- intent: python
-  example: |
-    - Python
+- intent: ai
+  examples: |
+    - AI
+    - what is ai?
 
 - intent: svu
-  example: |
+  examples: |
     - SVU
+    - what is SVU?
+
 
 - intent: bachelors
-  example: |
+  examples: |
+    - what is your Bachelor's?
     - Bachelor's
 
 - intent: education
-  example: |
+  examples: |
     - Education
+    - what is your education?
 
+- intent: javascript
+  examples: |
+    - Have you worked with JavaScript before?
+    - What's your familiarity level with JavaScript?
+    - What is your experience with JavaScript?
+    - Tell me about your experience with JavaScript.
+    - Do you have any experience in JavaScript API?
+    - Have you worked with JavaScript programming language?
+    - Could you share your experience in JavaScript?
+    - Can you tell me about any projects you've built using JavaScript?
+    - What projects have you built using JavaScript?
+    - How would you rate your skills in JavaScript?
+    - What is your rating in JavaScript?
+    - What is your level of expertise in JavaScript?
+    - Tell me about JavaScript.
+    - Have you used JavaScript in any of your previous projects?
+    - What kind of JavaScript projects have you worked on before?
+    - Can you tell me about your JavaScript development background?
+    - How skilled are you in JavaScript programming?
+    - Have you implemented any JavaScript APIs in the past?
+    - Share your JavaScript-related experience with me.
+    - Have you ever built anything with JavaScript?
+    - What is your proficiency level in JavaScript?
+    - Tell me about your JavaScript coding expertise.
+    - Do you have any hands-on experience with JavaScript?
+    - What can you do using JavaScript?
+    - Have you utilized JavaScript for any real-world applications?
+    - How comfortable are you with JavaScript?
+    - What's your history with JavaScript programming?
+    - Can you mention any JavaScript-related projects you've completed?
+    - Describe your JavaScript-related skills.
+    - Have you been working with JavaScript for long?
+    - Javascript
